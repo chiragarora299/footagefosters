@@ -1,0 +1,53 @@
+/* designing for home screen */
+#home{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg, rgb(0,101,219) 50%, rgb(0,212,255,1) 100%);
+  min-height: 500px;
+}
+
+#navbar{
+  position: relative;
+}
+
+/* designing for cards */
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+#contact{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg,  rgb(88, 223, 250) 50%, rgb(0, 119, 255) 100%);
+  min-height: 500px;
+}
+
+#msgbox{
+  border-radius: 40px;
+  border-color: black;
+  background: transparent;
+}
+
+#btn{
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: black;
+  
+}
+
+#contentbox{
+  min-height:600px;
+}
+
+
+#box{
+  margin-top: 50px;
+}
+
+
+#footer{
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-blue-gradient-web-ui-background-image_518658.jpg);
+  background-size: cover;
+}
